@@ -1,5 +1,5 @@
 % Statistics for stablecaps/terraform-aws-iam-policies-stablecaps
-% Generated for [stablecaps/terraform-aws-iam-policies-stablecaps](https://github.com/stablecaps/terraform-aws-iam-policies-stablecaps) with [jgehrcke/github-repo-stats](https://github.com/jgehrcke/github-repo-stats) at 2024-09-06 23:14 UTC.
+% Generated for [stablecaps/terraform-aws-iam-policies-stablecaps](https://github.com/stablecaps/terraform-aws-iam-policies-stablecaps) with [jgehrcke/github-repo-stats](https://github.com/jgehrcke/github-repo-stats) at 2024-09-07 23:11 UTC.
 
 
 ## Views
