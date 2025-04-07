@@ -25,7 +25,7 @@ variable "role_path" {
   type        = string
   validation {
     condition = (
-      can(regex("/(lambda|ec2|live-test)/", var.role_path))
+      can(regex("/(stablecaps|lambda|ec2|live-test)/", var.role_path))
     )
     error_message = "Invalid. Must start with: /(live-test|lambda|ec2)*."
   }
