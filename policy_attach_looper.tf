@@ -15,11 +15,20 @@ resource "aws_iam_role_policy" "this" {
 }
 
 
+# ### Loop & attach AWS managed policies
+# resource "aws_iam_role_policy_attachment" "this" {
+
+#   for_each = length(var.managed_policies) > 0 ? var.managed_policies : {}
+
+#   role       = aws_iam_role.this.name
+#   policy_arn = each.value
+# }
+
 ### Loop & attach AWS managed policies
 resource "aws_iam_role_policy_attachment" "this" {
 
-  for_each = length(var.managed_policies) > 0 ? var.managed_policies : {}
+  count = length(var.managed_policies)
 
   role       = aws_iam_role.this.name
-  policy_arn = each.value
+  policy_arn = var.managed_policies[count.index]
 }
