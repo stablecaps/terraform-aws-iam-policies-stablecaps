@@ -43,9 +43,9 @@ variable "custom_policies" {
 }
 
 variable "managed_policies" {
-  description = "Map of maps containing predinied IAM managed policy arns."
-  type        = map(string)
-  default     = {}
+  description = "List containing IAM managed policy arns."
+  type        = list(string)
+  default     = []
 }
 
 variable "tags" {
