@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/stablecaps/terraform-aws-iam-policies-stablecaps/tree/master,4,1
+/stablecaps/terraform-aws-iam-policies-stablecaps/blob/master/gen_iam_role.tf,3,2
+/stablecaps/terraform-aws-iam-policies-stablecaps/blob/master/policy_attach_looper.tf,3,1
+/stablecaps/terraform-aws-iam-policies-stablecaps/blob/master/README.md,2,1
+/stablecaps/terraform-aws-iam-policies-stablecaps/blob/master/examples/example_01/basic_eg.tf,2,1
+/stablecaps/terraform-aws-iam-policies-stablecaps/tree/master/examples,2,1
+/stablecaps/terraform-aws-iam-policies-stablecaps/tree/master/examples/example_01,2,1
+/stablecaps/terraform-aws-iam-policies-stablecaps/blob/master/examples/example_01/README.md,1,1
+/stablecaps/terraform-aws-iam-policies-stablecaps/blob/master/examples/example_01/policies.tf,1,1
+/stablecaps/terraform-aws-iam-policies-stablecaps/blob/master/outputs.tf,1,1
